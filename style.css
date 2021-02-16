@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet");
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-size: 1rem;
+  max-width: 1920px;
+  min-width: 320px;
+  height: 100%;
+}
+
+h1,
+h2,
+p,
+.button {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.h1, h1 {
+    font-size: 3rem;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+}
+
+.section {
+    width: 1920px;
+    padding: 0;
+}
+.container {
+    width: 1113px;
+    padding: 0;
+}
+
+/*no-repeat center top/cover*/
+.section_first, .section_video  {
+    background-color: rgba(238, 239, 241, 1) ;
+  
+
+}  
+
+.logo_menu,
+.write_me {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 57px;
+}
+
+.write_me {
+    margin-bottom: 146px;
+}
+
+.menu {
+    padding: 0;
+    margin-top: 79px;
+}
+
+.menu li {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    margin-right: 36px;   
+}
+
+.menu__link  {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #000000;  
+    text-decoration: none
+}
+.menu_link:hover{
+    color: rgba(52, 84, 122, 1);  
+    text-decoration: none;}
+
+.dropdown-menu {
+    display: none;
+    border: none;
+    outline: none;
+    /*margin-left: -1em;*/
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+  
+#dropdownMenuButton {
+    position: absolute;
+    top: 1em;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.dd{
+    margin-right: auto;
+}
+.row_2 {
+    margin-top: 162px;
+}
+
+p,
+h1 {
+    margin-bottom: 60px;
+}
+
+.button_write {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+}
+
+.about_me {
+    margin-top: 112px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.p_text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ss{
+    background-color:rgb(245, 245, 245);
+}
+.section_third  {
+    background:  #34547A;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.img_gallery {
+    width: 46.6px;
+    height: 50px;
+}
+
+.p_project {
+    color: #ffffff;
+}
+
+
+
+.work {
+    margin-top: 100px;
+}
+
+.video {
+    margin-bottom: 100px;
+}
+
+.img_face{
+height: 450px;
+width: 555px;
+left: 891px;
+top: 1411px;
+border-radius: 0px;
+margin-bottom: 101px;
+margin-top: 102px;
+margin-left: 100px;
+
+}
+.my_skill{
+    
+    margin-top: 204px;
+    padding-bottom: 305px;
+}
+
+.photoshop{
+    margin-top: 30px;
+}
+.img_line{
+    margin-top: 20px;
+}
+.my_sk_c{
+    margin-bottom: 20px;
+}
+.photoshop_link{
+    text-decoration: none;
+    color: black;
+}
+
+.photoshop_link:hover{
+    color: rgb(29, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+.section_video{
+    
+    height: 1030px;
+    
+}
+.container_video{
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+    height: 1030px;
+}
+
+.my_working{
+    margin-top: 100px;
+}
+
+.play-batton_img{
+  display: block;
+    margin-bottom: 350px;
+    background-image: url('img/play-button.png');
+}
+.video_preview_link{
+   position: relative; 
+   bottom: 100px;
+   width: 1100px;
+   height: 600px;
+   margin-bottom: 100px;
+margin-top: 57px;
+margin-left: 0 auto;
+border-radius: 0px;
+display: block;
+
+    /*background-image: url('img/Rectangle\ 5\ \(1\).png');*/
+}
+
+.section_6{
+    margin-top: 28px;
+    
+   
+    margin: 0 auto;
+   
+}
+.container_6{
+    
+    margin: 0px auto;
+    width: 100%;
+    
+    
+
+}
+
+.img_6{
+    
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img_6_ref:hover{
+    
+    background: url('img/Rectangle 7.1.png');
+
+}
+.img-gal{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: -200;
+    width: 480px;
+    height: 480px;
+ 
+  
+    
+}
+
+.row_6{
+    margin: 0px;
+    padding: 0px;
+}
+
+ .img-gal-spec{
+    z-index: -200;
+}
+.img-gla-special{
+    display: flex;
+}
+.img-gal-spec-2{
+    display: flex;
+    justify-self: start;
+    display: block;
+     padding: 0px;
+    position: absolute;
+    z-index: +200;
+    margin: 211px 190px;
+    
+}
+
+.pic-win{
+    margin-top: 72px;
+    margin-bottom: 100px;
+    width: 250px;
+    height: 120px;
+}
+
+.section_windows{
+   margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.gallery-2{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.gallery-2:hover {
+    border: 1px solid #777;
+    
+    background: url('img/Group.svg') no-repeat;  
+    background: url('img/Rectangle 7.1.png');  
+    
+    
+    background-blend-mode: hard-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+/*.img-gal{
+    background: url('img/Group.svg'); z-index:-100;
+    
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row_8{
+    
+   margin-left: 202px;
+}
+
+.message_f{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-control{
+    margin: 0px;
+    
+}
+
+#inputButton{
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+    margin: 0 auto;
+    font-family: Roboto;
+    
+}
+
+.section_form{
+    
+    height: 762px;
+    background-color:rgba(238, 239, 241, 1);
+    
+}
+.container_form{
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+    height: 1030px;
+}
+
+.section_footer {
+    background:  #34547A;
+    width: 1920px;
+    height: 152px;
+}
+
+.container_footer{
+    margin: 0 auto;
+}
+
+.row_footer{
+    margin: 0 auto;
+    
+   
+}
+
+.II{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 1,3 em;
+}
+
+.vk-logo{
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+        
+    padding: 0px;
+}
+
+.text-footer-2{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet");
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-size: 1rem;
+  max-width: 100%;
+  /*min-width: 320px; */
+  height: 100%;
+}
+
+h1,
+h2,
+p,
+.button {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.h1, h1 {
+    font-size: 2rem;
+}
+
+.h2, h2 {
+    font-size: 1.5rem;
+}
+
+.section {
+    width: 100%;
+    padding: 0;
+}
+
+
+.header{
+    width: 100%;
+    margin:  0 auto;
+}
+.container {
+    width: 100%;
+    padding: 0;
+}
+.img{
+    display: none;
+}
+/*no-repeat center top/cover*/
+.section_first, .section_video  {
+    background-color: rgba(238, 239, 241, 1) ;
+  
+
+}  
+
+.logo_menu,
+.write_me {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 57px;
+}
+
+.write_me {
+    margin-bottom: 146px;
+}
+
+
+.dd{
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    }
+.dropdown-menu {
+    
+    border: none;
+    outline: none;
+    /*margin-left: -1em;*/
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+  
+#dropdownMenuButton {
+    position: relative;
+    top: 1em;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    
+}
+.dropdown-item{
+    font-family: Roboto
+}
+.row_2 {
+    margin-top: 162px;
+}
+
+p,
+h1 {
+    margin-bottom: 60px;
+}
+
+.button_write {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.about_me {
+    margin-top: 112px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.p_text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ss{
+    background-color:rgb(245, 245, 245);
+}
+.section_third  {
+    background:  #34547A;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 30px;
+   
+}
+
+.img_gallery {
+    width: 1rem;
+    height: 0.5rem;
+}
+
+.p_project {
+    color: #ffffff;
+}
+
+
+
+.work {
+    margin-top: 100px;
+}
+
+
+
+.img_face{
+display: block;
+display: none;}
+
+
+.section_face{
+    height: 400px;
+}
+.row_face {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.my_skill{
+    margin-top: 100px;
+    padding: 0px;
+   
+}
+
+.photoshop{
+    margin-top: 30px;
+}
+.img_line{
+    margin-top: 20px;
+}
+.my_sk_c{
+   /* margin-bottom: 20px;*/
+    margin: 0 auto;
+    
+}
+
+.photoshop_link{
+    text-decoration: none;
+    color: black;
+}
+
+.photoshop_link:hover{
+    color: rgb(29, 0, 0);
+    text-decoration: none
+    
+}
+
+
+.section_video{
+    
+    height: 800px;
+    
+}
+.container_video{
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+    height: 500px;
+}
+
+.video {
+    margin-bottom: 100px;
+}
+.video_preview_link{
+    overflow:hidden;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+  }
+  .video_preview_link iframe {
+   position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+  }
+.my_working{
+    margin-top: 100px;
+}
+
+.play-batton_img{
+  display: block;
+    margin-bottom: 350px;
+    background-image: url('img/play-button.png');
+}
+/*.video_preview_link{
+   position: relative; 
+   bottom: 100px;
+   width: 1100px;
+   height: 600px;
+   margin-bottom: 100px;
+margin-top: 57px;
+margin-left: 0 auto;
+border-radius: 0px;
+display: block;
+}
+*/
+    /*background-image: url('img/Rectangle\ 5\ \(1\).png');*/
+
+
+.section_6{
+    margin-top: 28px;
+   
+}
+
+.container_6{
+margin-top: 250px;
+padding-top: 25px;
+padding-bottom: 25px;
+
+}
+.row_6{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.img_6{
+    
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   
+ 
+    
+}
+.img-gal{
+    display: block;
+    display: flex;
+    
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+
+.img_6_ref:hover{
+    border: 0.2px rgb(134, 134, 134) solid;
+    
+
+}
+
+
+/*
+ .img-gal-spec{
+    z-index: -200;
+}
+.img-gla-special{
+    display: flex;
+}
+.img-gal-spec-2{
+    display: flex;
+    justify-self: start;
+    display: block;
+     padding: 0px;
+    position: absolute;
+    z-index: +200;
+    margin: 211px 190px;
+    
+}*/
+
+.section_windows{
+    display: block;
+    display: none;
+}
+.pic-win{
+    margin-top: 72px;
+    margin-bottom: 100px;
+    width: 250px;
+    height: 120px;
+}
+.section_windows{
+   margin: 0 auto;
+    
+}
+
+.wp:{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.wp:nth-child(odd){
+    display: block;
+    display: none;
+    
+}
+.pic-win{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row_8{
+    
+   margin-left: 0px;
+}
+
+.message_f{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-control{
+    margin: 0px;
+    
+}
+
+#inputButton{
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+    margin: 0 auto;
+    font-family: Roboto;
+    
+}
+
+.section_form{
+    
+    height: 1000px;
+    background-color:rgba(238, 239, 241, 1);
+    
+}
+.container_form{
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.row_12{
+    position: relative;
+    height: 700px;
+}
+.my_form{
+    position: absolute;
+    margin-left: 0px;
+    height: 4px;
+}
+
+.section_footer {
+    
+    background:  #34547A;
+    max-width: 1920px;
+    height: 152px;
+}
+
+.container_footer{
+    margin: 0 auto;
+}
+
+.row_footer{
+    margin: 0 auto;
+    
+   
+}
+
+.II{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 70%;
+}
+
+.vk-logo{
+    height: 70%;
+    width: 70%;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+        
+    padding: 0px;
+}
+
+.text-footer-2{
+    color: rgb(255, 255, 255);
+    font-size: 50%;
+}
