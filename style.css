@@ -80,7 +80,7 @@ p,
     color: #000000;  
     text-decoration: none
 }
-.menu_link:hover{
+.menu__link:hover{
     color: rgba(52, 84, 122, 1);  
     text-decoration: none;}
 
