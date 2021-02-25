@@ -6,9 +6,10 @@ body {
   padding: 0 !important;
   box-sizing: border-box;
   font-size: 1rem;
-  max-width: 1920px;
+  max-width: 1139px;
   min-width: 320px;
   height: 100%;
+  width: 100%;
 }
 
 h1,
@@ -131,12 +132,12 @@ h2 {
     margin-bottom: 50px;
 }
 
-.p_text {
+.header__about--text {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.ss{
+.section_second{
     background-color:rgb(245, 245, 245);
 }
 .section_third  {
@@ -151,12 +152,12 @@ h2 {
     margin-bottom: 30px;
 }
 
-.img_gallery {
+.project__imges--img {
     width: 46.6px;
     height: 50px;
 }
 
-.p_project {
+.project__imges--text {
     color: #ffffff;
 }
 
@@ -166,11 +167,9 @@ h2 {
     margin-top: 100px;
 }
 
-.video {
-    margin-bottom: 100px;
-}
 
-.img_face{
+
+.my_skill__img_face{
 height: 450px;
 width: 555px;
 left: 891px;
@@ -187,21 +186,21 @@ margin-left: 100px;
     padding-bottom: 305px;
 }
 
-.photoshop{
+.my_skill___text{
     margin-top: 30px;
 }
-.img_line{
+.my_skill__img_line{
     margin-top: 20px;
 }
-.my_sk_c{
+.my_skill__title{
     margin-bottom: 20px;
 }
-.photoshop_link{
+.my_skill___link{
     text-decoration: none;
     color: black;
 }
 
-.photoshop_link:hover{
+.my_skill___link:hover{
     color: rgb(29, 0, 0);
     text-decoration: none;
     font-weight: bold;
@@ -220,8 +219,10 @@ margin-left: 100px;
     padding: 0px;
     height: 1030px;
 }
-
-.my_working{
+.video {
+    margin-bottom: 100px;
+}
+.video__my_working{
     margin-top: 100px;
 }
 
@@ -244,7 +245,7 @@ display: block;
     /*background-image: url('img/Rectangle\ 5\ \(1\).png');*/
 }
 
-.section_6{
+.section_sixth{
     margin-top: 28px;
     
    
@@ -260,7 +261,7 @@ display: block;
 
 }
 
-.img_6{
+.gallery{
     
     height: auto;
     margin: 0px;
@@ -268,19 +269,19 @@ display: block;
     justify-content: center;
     flex-wrap: wrap;
 }
-.img_6_ref{
+.gallery__link{
     width: 240px;
     height: 240px;
 }
 
 
 
-.img_6_ref:hover{
+.gallery__link:hover{
     
     background: url('img/Rectangle 7.1.png');
 
 }
-.img-gal{
+.gallery__img{
     display: block;
     display: flex;
     flex-direction: row;
@@ -297,7 +298,7 @@ display: block;
     
 }
 
-.row_6{
+.row_gallery{
     margin: 0px;
     padding: 0px;
 }
@@ -311,24 +312,12 @@ display: block;
 
 
 
-.pic-win{
-    margin-top: 72px;
-    margin-bottom: 100px;
-  
-}
+
 
 .section_windows{
    margin: 0 auto;
     
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -354,66 +343,11 @@ display: block;
    
 }
 
-/*.img-gal{
-    background: url('img/Group.svg'); z-index:-100;
-    
-
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.gallery__windows{
+    margin-top: 72px;
+    margin-bottom: 100px;
+  
+}
 
 
 

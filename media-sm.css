@@ -6,7 +6,7 @@ body {
   padding: 0 !important;
   box-sizing: border-box;
   font-size: 1rem;
-  max-width: 100%;
+  max-width: 500px;
   /*min-width: 320px; */
   height: 100%;
 }
@@ -27,7 +27,7 @@ p,
 }
 
 .section {
-    width: 100%;
+   
     padding: 0;
 }
 
@@ -37,8 +37,9 @@ p,
     margin:  0 auto;
 }
 .container {
-    width: 100%;
+    width: 90%;
     padding: 0;
+    margin: 0 auto;
 }
 .img{
     display: none;
@@ -97,6 +98,8 @@ p,
 }
 .row_2 {
     margin-top: 162px;
+    max-width: 768px;
+    
 }
 
 p,
@@ -120,12 +123,12 @@ h2 {
     margin-bottom: 50px;
 }
 
-.p_text {
+.header__about--text {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.ss{
+.section_second{
     background-color:rgb(245, 245, 245);
 }
 .section_third  {
@@ -141,12 +144,12 @@ h2 {
    
 }
 
-.img_gallery {
+.project__imges--img {
     width: 1rem;
     height: 0.5rem;
 }
 
-.p_project {
+.project__imges--text {
     color: #ffffff;
 }
 
@@ -158,7 +161,7 @@ h2 {
 
 
 
-.img_face{
+.my_skill__img_face{
 display: block;
 display: none;}
 
@@ -167,6 +170,11 @@ display: none;}
     height: 400px;
 }
 .row_face {
+    width: 500px;
+    height: 300px;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-left: 100px;
     display: block;
     display: flex;
     flex-direction: column;
@@ -181,24 +189,24 @@ display: none;}
    
 }
 
-.photoshop{
+.my_skill___text{
     margin-top: 30px;
 }
-.img_line{
+.my_skill__img_line{
     margin-top: 20px;
 }
-.my_sk_c{
+.my_skill__title{
    /* margin-bottom: 20px;*/
     margin: 0 auto;
     
 }
 
-.photoshop_link{
+.my_skill___link{
     text-decoration: none;
     color: black;
 }
 
-.photoshop_link:hover{
+.my_skill___link:hover{
     color: rgb(29, 0, 0);
     text-decoration: none
     
@@ -234,7 +242,7 @@ display: none;}
     left:0;
     top:0;
   }
-.my_working{
+.video__my_working{
     margin-top: 100px;
 }
 
@@ -243,22 +251,8 @@ display: none;}
     margin-bottom: 350px;
     background-image: url('img/play-button.png');
 }
-/*.video_preview_link{
-   position: relative; 
-   bottom: 100px;
-   width: 1100px;
-   height: 600px;
-   margin-bottom: 100px;
-margin-top: 57px;
-margin-left: 0 auto;
-border-radius: 0px;
-display: block;
-}
-*/
-    /*background-image: url('img/Rectangle\ 5\ \(1\).png');*/
 
-
-.section_6{
+.section_sixth{
     margin-top: 28px;
    
 }
@@ -269,13 +263,13 @@ padding-top: 25px;
 padding-bottom: 25px;
 
 }
-.row_6{
+.row_gallery{
     margin: 0px;
     padding: 0px;
     height: auto;
 }
 
-.img_6{
+.gallery{
     
     margin: 0px;
     padding: 0px;
@@ -286,7 +280,7 @@ padding-bottom: 25px;
  
     
 }
-.img-gal{
+.gallery__img{
     display: block;
     display: flex;
     
@@ -298,61 +292,47 @@ padding-bottom: 25px;
     
 }
 
-.img_6_ref:hover{
+.gallery__link:hover{
     border: 0.2px rgb(134, 134, 134) solid;
     
 
 }
 
 
-/*
- .img-gal-spec{
-    z-index: -200;
-}
-.img-gla-special{
-    display: flex;
-}
-.img-gal-spec-2{
-    display: flex;
-    justify-self: start;
-    display: block;
-     padding: 0px;
-    position: absolute;
-    z-index: +200;
-    margin: 211px 190px;
-    
-}*/
 
 .section_windows{
     display: block;
     display: none;
 }
-.pic-win{
-    margin-top: 72px;
-    margin-bottom: 100px;
-    width: 250px;
-    height: 120px;
-}
+
 .section_windows{
    margin: 0 auto;
     
 }
 
-.wp:{
+.gallery__windows{
+    margin-top: 72px;
+    margin-bottom: 100px;
+    width: 250px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.windows__img:{
     width: 100%;
     height: 100%;
     
 }
 
-.wp:nth-child(odd){
+.windows__img:nth-child(odd){
     display: block;
     display: none;
     
 }
-.pic-win{
-    display: flex;
-    flex-wrap: wrap;
-}
+
+
+
 
 .row_8{
     
@@ -393,9 +373,10 @@ padding-bottom: 25px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    max-width: 850px;
 }
 
-.row_12{
+.row_form{
     position: relative;
     height: 700px;
 }
